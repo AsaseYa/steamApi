@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+$font-1: "Nunito", "sans-serif";
+
+$color-1: #2a2b2e;
+$color-2: #5a5a66;
+$color-3: #a4c2a8;
+$color-4: #aceb98;
+$color-5: #87ff65;
+$black: #0a0a0a;
+$white: #f2f2f2;
+
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     margin: 0.4rem auto;
+     max-width: 1296px;
+     font-family: $font-1;
+     color: $color-5;
+     background-color: $color-1;
+}
+a {
+     text-decoration: none;
+     color: $color-5;
+     cursor: pointer;
+}
+li {
+     list-style-type: none;
+}
+a:visited {
+     color: $color-5;
+}

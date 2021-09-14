@@ -1,0 +1,2 @@
+# GET http://localhost:7000/steam/ownedGames
+GET http://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/?key=BE958FD7DB676A23C8305A0D3E575D1F&vanityurl=SAWAN

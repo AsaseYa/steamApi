@@ -1,0 +1,29 @@
+.navigation {
+     margin: 26px 0;
+     display: flex;
+     width: 100%;
+
+     .navigation-cell {
+          a {
+               margin: 10px;
+               padding: 10px;
+               border-radius: 4px;
+               position: relative;
+          }
+
+          box-sizing: content-box;
+          padding: 10px;
+          margin: 10px;
+          border-radius: 4px;
+          background: $color-2;
+
+          .nav-active {
+               margin: 10px;
+               padding: 10px;
+               // border-radius: 4px;
+               // position: relative;
+               color: $color-1;
+               background: $color-4;
+          }
+     }
+}
